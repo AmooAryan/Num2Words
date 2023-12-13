@@ -1,4 +1,4 @@
-# Num2Words
+# Num2Words by AmooAryan
 
 
 This is the most professional code that you can find on the internet to convert numbers to letters!
@@ -8,6 +8,8 @@ I didn't use any library!
 This code supports English and Persian.
 
 
+
+
 # How to use:
 
 1. Choose Menu
@@ -15,6 +17,8 @@ This code supports English and Persian.
 3. Now it's not just a number anymore!
 
 ** The results of the Persian menu may be displayed in a mess, so use IDLE for correct display!
+
+
 
 
 # Guide:
@@ -52,6 +56,18 @@ Now, using the while loop, we repeatedly divide the number into 1000 and increas
 
 At this moment, the number represents the number of powers of 1000. In this way, we can get the number scale, so we have to define a dictionary for the scales. Of course, I defined it at the beginning.
 Now we have to take the big number and re-enter the rest of the number in the function so that the conversion operation is done on it. So for this we use a formula that I thought a lot until it came to my mind!
+
 > The main number minus the big number multiplied by 1000 to the power of the counter
 
 Now it is enough to give the obtained number again to the function and this is repeated until all the digits are translated.
+
+
+
+# Copyright:
+
+The use of this code is unimpeded by mentioning the source!
+
+
+# Participation:
+
+If you have a better idea, you can reach me in the issues section.
