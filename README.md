@@ -27,8 +27,7 @@ I tried my best to write this program in the least number of lines. That's why I
 
 In this method, I used the function in itself so that there is no need to repeat it and it is repeated inside itself for large numbers.
 
-**Be careful that this idea is not suitable for any program because using the internal function will fill the RAM memory and cause the system to crash.
-**
+**Be careful that this idea is not suitable for any program because using the internal function will fill the RAM memory and cause the system to crash!**
 
 ### But let's go to the algorithm logic of this code:
 
@@ -40,8 +39,7 @@ For example, the number 27 is a combination of 20 and 7. But how to do this?
 
 For this, you need to divide the number 27 by 10 and then round down. The obtained number is your tens. To get one, it is enough to get the remainder of dividing 27 by 10.
 
-**What if it was a three-digit number?
-**
+**What if it was a three-digit number?**
 
 For three-digit numbers, we do exactly the same as before, with the difference that we use 100 instead of 10.
 
